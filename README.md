@@ -36,16 +36,17 @@ User
 
 | AP-№ | Zuständig | Beschreibung                            | Geplante Zeit |
 | ---- | --------- | --------------------------------------- | ------------- |
-| 0.0  |  Raviraj        | Projektdokumentation                          | 2 Stunden     |
-| 1.A  |  Raviraj         | Startseite erstellen        | 8 Stunden     |
-| 1.B  |  Raviraj         | Über mich Seite erstellen       | 4 Stunden      |
-| 1.C  |  Raviraj         | Ausbildung Seite erstellen    | 4 Stunden     |
-| 1.D  |  Raviraj        | Kontaktformular erstellen   | 2 Stunden      |
-| 2.A  |  Raviraj         | Navigationsbar erstellen       | 4 Stunden     |
-| 2.B  |  Raviraj         | Footer erstellen      | 2 Stunden      |
-| 3.A  |  Raviraj         | JavaScript Animation erstellen | 2 Stunden  |
-| 4.A  |  Raviraj         | Webseite auf Englisch übersetzen       | 2 Stunden      |
-| 5.A  |  Raviraj         | Portfolioeintrag       | 2 Stunden      |
+| 0.0  | Raviraj   | Erstellung der Projektdokumentation    | 2 Stunden     |
+| 1.A  | Raviraj   | Design und Umsetzung der Startseite     | 8 Stunden     |
+| 1.B  | Raviraj   | Gestaltung und Erstellung der "Über mich" Seite  | 4 Stunden |
+| 1.C  | Raviraj   | Ausarbeitung und Einrichtung der Ausbildung Seite | 4 Stunden |
+| 1.D  | Raviraj   | Entwicklung und Implementierung des Kontaktformulars | 2 Stunden |
+| 2.A  | Raviraj   | Erstellung der Navigationsleiste         | 4 Stunden     |
+| 2.B  | Raviraj   | Konzeption und Einbindung des Footers    | 2 Stunden     |
+| 3.A  | Raviraj   | Programmierung von JavaScript-Animationen | 2 Stunden  |
+| 4.A  | Raviraj   | Übersetzung der Webseite ins Englische | 2 Stunden     |
+| 5.A  | Raviraj   | Erstellung eines Portfolioeintrags       | 2 Stunden     |
+
 
 
 ## 3 Entscheiden
