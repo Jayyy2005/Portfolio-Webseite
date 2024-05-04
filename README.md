@@ -22,9 +22,9 @@ User
 | Testfall-Nummer | Beschreibung                                                                  | Erwartete Ausgabe                                                     |
 | --------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | 0.1             | Besucher gibt die URL der Webseite ein und drückt Enter.                      | Die Webseite wird geladen und der Besucher sieht die Startseite.    |
-| 0.2             | Besucher klickt auf einen Link, um die Webseite zu öffnen.                    | Die entsprechende Seite wird geladen und angezeigt.                 |
-| 1.1             | Besucher bewegt den Mauszeiger über die Navigationsleiste.                    | Die Symbole oder Texte in der Navigationsleiste werden hervorgehoben. |
-| 1.2             | Besucher klickt auf einen Link in der Navigationsleiste.                      | Die Seite, die dem Link entspricht, wird geladen und angezeigt.     |
+| 0.2             | Besucher klickt auf die Navigationen, um die entsprechende Seite zu wechseln.                    | Die entsprechende Seite wird angezeigt.                 |
+| 1.1             | Besucher bewegt den Mauszeiger über die Navigationsleiste.                    | Die Buttons in der Navigationsleiste erscheint als Hover-Effekt. |
+| 1.2             | Besucher klickt auf den Icons.                      | Die Icons, die der Webseite entspricht, wird geöffnet und angezeigt.     |
 | 2.1             | Besucher scrollt zum unteren Rand der Webseite.                               | Der Footer wird angezeigt.                                           |
 | 3.1             | Besucher navigiert zur Kontaktseite.                                          | Das Kontaktformular wird angezeigt.                                  |
 | 3.2             | Besucher füllt das Kontaktformular aus und klickt auf "Senden".               | Die eingegebenen Informationen werden verarbeitet und gesendet.     |
