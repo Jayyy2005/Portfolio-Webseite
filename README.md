@@ -5,49 +5,47 @@
 
 ### User Stories
 
+User
 | US-№ | Verbindlichkeit  | Beschreibung                       |
 | ---- | --------------- | ---------------------------------- |
-| 0    |              Muss    | Als eine Lehrperson möchte ich eine Dokumentation sehen, um den Lernprozess meiner Schüler besser nachvollziehen zu können. |
-| 1    |              Muss    | Als ein Besucher möchte ich Snake spielen können, um mein Geschick zu testen und Spass zu haben. |
-| 2  |              Muss       |   Als ein Besucher möchte ich TicTacToe spielen können, um strategische Herausforderungen zu erleben.                                 |
-| 3  |              Muss     |   Als ein Besucher möchte ich Tetris spielen können, um mein räumliches Denken zu verbessern.                                 |
-| 4  |              Muss      |  Als ein Besucher möchte ich auf einer übersichtlichen Startseite landen, um einfach zu den Spielen navigieren zu können.                                 |
-| 5  |              Kann     |   Als ein Besucher möchte ich eine ansprechende und benutzerfreundliche Webseite erleben, um meine Spielerfahrung zu verbessern.                              |
+| 0    |              Muss    | Als ein Besucher möchte ich die Webseite besuchen können. |
+| 1    |              Muss    | Als ein Besucher möchte ich die Navigationsbar benutzen können. |
+| 2  |              Muss       |   Als ein Besucher möchte ich die Footer benutzen können.                                 |
+| 3  |              Muss     |   Als ein Besucher möchte ich das Kontaktformular benutzen können.                                 |
+| 5  |              Kann     |   Als ein Besucher möchte ich eine ansprechende und benutzerfreundliche Webseite erleben.                              |
 
 
 
 ### 1.3 Testfälle
 
 
-| TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
-| ---- | ------------ | ------- | ----------------- |
-|1.1|	Besucher befindet sich auf der Startseite	|Klick auf "Snake"|	Snake-Spiel wird gestartet und ist spielbar|
-|1.2|	Besucher spielt gerade Snake	|Kollision mit der Wand|	Das Spiel endet, und eine Fehlermeldung wird angezeigt|
-|1.3|	Besucher beendet das Snake-Spiel|	Klick auf "Zurück zur Startseite"	|Der Besucher kehrt zur Startseite zurück|
-|2.1|	Besucher befindet sich auf der Startseite	|Klick auf "TicTacToe"|	TicTacToe-Spiel wird gestartet und ist spielbar|
-|2.2|	Besucher setzt ein X in ein leeres Feld	|Klick auf ein leeres Feld	|X wird im ausgewählten Feld platziert|
-|2.3|	Besucher gewinnt das TicTacToe-Spiel	|Erfolgreiches Setzen von drei X in einer Reihe|	Gewinnmeldung wird angezeigt|
-|3.1|	Besucher befindet sich auf der Startseite|	Klick auf "Tetris"	|Tetris-Spiel wird gestartet und ist spielbar|
-|3.2|	Besucher bewegt den Tetris-Block nach links|	Tastendruck "Links"|	Tetris-Block bewegt sich nach links|
-|3.3|	Besucher erreicht eine volle horizontale Reihe|	Blockreihe wird komplettiert|	Die volle Reihe verschwindet, und Punkte werden hinzugefügt|
-|4.1|	Besucher öffnet die Webseite|	-|	Eine übersichtliche Startseite wird angezeigt|
-|4.2|	Besucher navigiert zurück zur Startseite|	Klick auf "Startseite"	|Der Besucher landet auf der Startseite|
+| Testfall-Nummer | Beschreibung                                                                  | Erwartete Ausgabe                                                     |
+| --------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| 0.1             | Besucher gibt die URL der Webseite ein und drückt Enter.                      | Die Webseite wird geladen und der Besucher sieht die Startseite.    |
+| 0.2             | Besucher klickt auf einen Link, um die Webseite zu öffnen.                    | Die entsprechende Seite wird geladen und angezeigt.                 |
+| 1.1             | Besucher bewegt den Mauszeiger über die Navigationsleiste.                    | Die Symbole oder Texte in der Navigationsleiste werden hervorgehoben. |
+| 1.2             | Besucher klickt auf einen Link in der Navigationsleiste.                      | Die Seite, die dem Link entspricht, wird geladen und angezeigt.     |
+| 2.1             | Besucher scrollt zum unteren Rand der Webseite.                               | Der Footer wird angezeigt.                                           |
+| 3.1             | Besucher navigiert zur Kontaktseite.                                          | Das Kontaktformular wird angezeigt.                                  |
+| 3.2             | Besucher füllt das Kontaktformular aus und klickt auf "Senden".               | Die eingegebenen Informationen werden verarbeitet und gesendet.     |
+| 4.1             | Besucher navigiert durch die Webseite und interagiert mit verschiedenen Elementen. | Die Webseite ist intuitiv und benutzerfreundlich gestaltet.          |
+| 5.1             | Besucher klickt auf "EN". | Die Webseite wird auf Englisch übersetzt.          |
 
 
 ## 2 Planen
 
 | AP-№ | Zuständig | Beschreibung                            | Geplante Zeit |
 | ---- | --------- | --------------------------------------- | ------------- |
-| 0.0  |  Manser        | Projektdokumentation                          | 2 Stunden     |
-| 1.A  |  Greub         | Implementierung des Snake-Spiels        | 10 Stunden     |
-| 1.B  |  Greub         | Durchführung von Snake-Spieltests       | 2 Stunden      |
-| 2.A  |  Raviraj         | Implementierung des TicTacToe-Spiels    | 10 Stunden     |
-| 2.B  |  Raviraj        | Durchführung von TicTacToe-Spieltests   | 2 Stunden      |
-| 3.A  |  Lucena         | Implementierung des Tetris-Spiels       | 15 Stunden     |
-| 3.B  |  Lucena         | Durchführung von Tetris-Spieltests      | 2 Stunden      |
-| 4.A  |  Manser         | Design und Implementierung der Startseite | 10 Stunden  |
-| 4.B  |  Manser         | Durchführung von Startseitentests       | 1 Stunden      |
-| 5.A  |  Individuell         | Portfolioeintrag       | 4 Stunden      |
+| 0.0  |  Raviraj        | Projektdokumentation                          | 2 Stunden     |
+| 1.A  |  Raviraj         | Startseite erstellen        | 8 Stunden     |
+| 1.B  |  Raviraj         | Über mich Seite erstellen       | 4 Stunden      |
+| 1.C  |  Raviraj         | Ausbildung Seite erstellen    | 4 Stunden     |
+| 1.D  |  Raviraj        | Kontaktformular erstellen   | 2 Stunden      |
+| 2.A  |  Raviraj         | Navigationsbar erstellen       | 4 Stunden     |
+| 2.B  |  Raviraj         | Footer erstellen      | 2 Stunden      |
+| 3.A  |  Raviraj         | JavaScript Animation erstellen | 2 Stunden  |
+| 4.A  |  Raviraj         | Webseite auf Englisch übersetzen       | 2 Stunden      |
+| 5.A  |  Raviraj         | Portfolioeintrag       | 2 Stunden      |
 
 
 ## 3 Entscheiden
@@ -58,15 +56,15 @@ Keine
 
 | AP-№ | Zuständig | Geplante Zeit | Tatsächliche Zeit |
 | ---- | --------- | ------------- | ----------------- |
-| 0.0  |  Manser        | 2 Stunden      | 2 Stunden         |
-| 1.A  |  Greub         | 10 Stunden     |   12 Stunden      |
-| 1.B  |  Greub         | 2 Stunden      |    2 Stunden               |
-| 2.A  |  Raviraj         | 10 Stunden     |  10 Studen               |
-| 2.B  |  Raviraj         | 2 Stunden      |  2 Stunden                 |
-| 3.A  |  Lucena         | 15 Stunden     |   14 stunden                |
-| 3.B  |  Lucena         | 2 Stunden      |   1 Stunde                |
-| 4.A  |  Manser         | 10 Stunden     |   11 Stunden                |
-| 4.B  |  Manser         | 1 Stunden      |   2 Stunden                |
+| 0.0  |  Raviraj        | 2 Stunden      | 2 Stunden         |
+| 1.A  |  Raviraj         | 8 Stunden     |   10 Stunden      |
+| 1.B  |  Raviraj         | 4 Stunden      |    4 Stunden               |
+| 1.C  |  Raviraj         | 4 Stunden     |  5 Stunden             |
+| 1.D  |  Raviraj         | 2 Stunden      |  2 Stunden                 |
+| 2.A  |  Raviraj         | 4 Stunden     |   3 Stunden                |
+| 2.B  |  Raviraj         | 2 Stunden      |   2 Stunden                |
+| 3.A  |  Raviraj         | 2 Stunden     |   1 Stunde                |
+| 4.A  |  Raviraj         | 3 Stunden      |   3 Stunden                |
 
 
 
@@ -75,22 +73,18 @@ Keine
 
 ### 5.1 Testprotokoll
 
-| TC-№ | Resultat | Tester  |
-| ---- | -------- | ------- |
-| 1.1  | OK       | Greub   |
-| 1.2  | NOK       | Greub   |
-| 1.3  | OK       | Greub   |
-| 2.1  | OK       | Raviraj |
-| 2.2  | OK       | Raviraj |
-| 2.3  | OK       | Raviraj |
-| 3.1  | OK       | Lucena  |
-| 3.2  | OK       | Lucena  |
-| 3.3  | OK       | Lucena  |
-| 4.1  | OK       | Manser  |
-| 4.2  | OK       | Manser  |
+| Testfall-№  | Resultat | Tester   |
+| --------------- | -------- | -------- |
+| 0.1             | OK       | Raviraj  |
+| 0.2             | OK       | Raviraj  |
+| 1.1             | OK       | Raviraj  |
+| 1.2             | OK       | Raviraj  |
+| 2.1             | OK       | Raviraj  |
+| 3.1             | OK       | Raviraj  |
+| 3.2             | OK       | Raviraj  |
+| 4.1             | OK       | Raviraj  |
+| 5.1             | OK       | Raviraj  |
 
-Fazit:
-Bis auf das Snake-Spiel konnten alle Anforderungen erfüllt werden.
 
 
 
