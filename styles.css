@@ -1,0 +1,300 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "VT323", monospace;
+    color: #353535;
+    background-color: #E5ECFB;
+    overflow-y: auto;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    height: 20px;
+    overflow: hidden;
+    color: #353535;
+}
+
+footer {
+    padding: 10px;
+    background-color: #fff;
+    color: #353535;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+}
+
+.text h3 {
+    font-size: 40px;
+}
+
+#about {
+    background-color: #FFFF;
+}
+
+#about .content {
+    display: flex;
+}
+
+.left-container {
+    flex: 1;
+}
+
+.right-container {
+    flex: 1;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+#education {
+    background-color: #E5ECFB;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.education-item {
+    text-align: left;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+    margin-bottom: 10px;
+}
+
+#projects {
+    background-color: #FFFF;
+}
+
+#contact {
+    background-color: #E5ECFB;
+}
+
+h2 {
+    text-align: center;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #F7F7F7;
+}
+
+.aboutme {
+    text-align: left;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    line-height: 20px;
+    color: #353535;
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 5px;
+    background-color: #FFF;
+    transition: background-color 0.3s ease;
+    color: #353535;
+}
+
+nav ul li a:hover {
+    background-color: #e2e2e2;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+    color: #1a73e8;
+}
+
+.page {
+    min-height: 100vh;
+    padding-top: 50px;
+    overflow-y: auto;
+}
+
+.page-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color: #ffdfdf;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #353535;
+    border-radius: 4px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.text {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.image {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 20%;
+    box-shadow: 10px 20px 8px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #353535;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #0d47a1;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-icons a {
+    display: inline-flex;
+}
+
+.project-container .logo {
+    border: 2px solid #f0f0f0; 
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); 
+    width: 200px;
+    height: auto;
+    margin-top: 200px;
+}
+
+.project-containerleft {
+    float: left;
+    margin-left: 20%;
+}
+
+.project-containerright {
+    float: right;
+    margin-right: 20%;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-info,
+.contact-form {
+    width: 45%;
+}
+
+.contact-info h3,
+.contact-form h3 {
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.sanjay {
+    font-weight: bold;
+}
+
+.raviraj {
+    color: blue;
+    font-weight: bold;
+}
+
+.highlight {
+    color: blue;
+}
