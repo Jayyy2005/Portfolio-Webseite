@@ -11,7 +11,7 @@
 | 1    | Muss            | Funktional   | Als ein Besucher muss ich die Navigationsleiste benutzen können. |
 | 2    | Muss            | Funktional   | Als ein Besucher muss ich in der Lage sein, den Footer zu verwenden. |
 | 3    | Muss            | Funktional   | Als ein Besucher muss ich das Kontaktformular verwenden können. |
-| 5    | Kann            | Qualitativ   | Als ein Besucher kann ich eine ansprechende und benutzerfreundliche Webseite erleben. |
+| 4    | Kann            | Qualitativ   | Als ein Besucher kann ich eine ansprechende und benutzerfreundliche Webseite erleben. |
 
 
 
