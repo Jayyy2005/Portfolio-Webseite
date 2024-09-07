@@ -1,3 +1,4 @@
+// Hervorheben des aktiven Navigationslinks beim Scrollen
 document.addEventListener("DOMContentLoaded", function() {
     // Animation
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
